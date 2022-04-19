@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerLayer
+  - EnemyLayer
+  - GroundLayer
+  - GizmosLayer
+  - OneWayGroundLayer
+  - PlayerBulletLayer
+  - EnemyBulletLayer
+  - "\u89D2\u8272\u65E0\u654C\u72B6\u6001"
+  - FoodLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: "\u80CC\u666F\u56FE\u7247"
+    uniqueID: 3549376113
+    locked: 0
+  - name: "\u80CC\u666F"
+    uniqueID: 376969699
+    locked: 0
+  - name: "\u5730\u9762"
+    uniqueID: 1312745911
+    locked: 0
+  - name: "\u89D2\u8272"
+    uniqueID: 56377067
+    locked: 0
+  - name: "\u7269\u4EF6"
+    uniqueID: 2004362961
+    locked: 0
+  - name: "\u5B50\u5F39"
+    uniqueID: 2326157263
+    locked: 0
+  - name: "\u524D\u666F"
+    uniqueID: 3299996067
+    locked: 0
