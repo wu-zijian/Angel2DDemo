@@ -11,6 +11,7 @@ using UnityEngine.Playables;
 public class UIManager : Singleton<UIManager>, IEndGameObserver
 {
     public GameObject PausePanel;
+    public GameObject MisionPanel;
     public GameLevel gameLevel;
     public PlayableDirector director;
     public GameObject gameOverPanel;
@@ -107,6 +108,18 @@ public class UIManager : Singleton<UIManager>, IEndGameObserver
             PausePanel.transform.Find("全屏").gameObject.GetComponent<Toggle>().isOn = Screen.fullScreen;
         }
 
+        Time.timeScale = 0;
+    }
+
+    ///<summary>
+    ///任务
+    ///</summary>
+    public void OpenMissionPanel()//暂停游戏
+    {
+        if (MisionPanel != null)
+        {
+            MisionPanel.SetActive(true);
+        }
         Time.timeScale = 0;
     }
 

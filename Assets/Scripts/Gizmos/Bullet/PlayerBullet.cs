@@ -20,7 +20,7 @@ public class PlayerBullet : Bullet
         {
             Enemy enemy = c2d.gameObject.GetComponent<Enemy>();
             if (enemy.isDeath) return;
-            int demagerNum = enemy.characterStats.TakeDamage(enemy.characterStats);
+            int demagerNum = enemy.characterStats.TakeDamage(player.characterStats);
             Instantiate(DamagerNum, enemy.transform.position, Quaternion.identity).transform.GetChild(0).GetComponent<DamageNum>().SetText(demagerNum);
             if (enemy.DeathCheck())
             {

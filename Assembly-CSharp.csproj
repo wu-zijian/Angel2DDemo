@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Core\Singleton.cs" />
      <Compile Include="Assets\Scripts\Data\Item.cs" />
      <Compile Include="Assets\Scripts\UI\UIBattleScene\DoorManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UIMissionSystem\MissionItem.cs" />
      <Compile Include="Assets\Scripts\Core\IEndGameObserver.cs" />
      <Compile Include="Assets\Scripts\UI\UIBattleScene\OpenDialog.cs" />
      <Compile Include="Assets\Scripts\Gizmos\Machine\MovingPlatform.cs" />
@@ -63,12 +64,15 @@
      <Compile Include="Assets\Scripts\Gizmos\Bullet\EnemyBullet.cs" />
      <Compile Include="Assets\AssetStore\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\Scripts\UI\UIBattleScene\OpenOrCloseGO.cs" />
+     <Compile Include="Assets\Scripts\Data\Mission.cs" />
      <Compile Include="Assets\Scripts\Character\Enemy.cs" />
+     <Compile Include="Assets\Scripts\UI\UIMissionSystem\MissionManager.cs" />
      <Compile Include="Assets\Scripts\UI\UIBattleScene\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\Character\Character.cs" />
      <Compile Include="Assets\Scripts\Gizmos\trap\Spine.cs" />
      <Compile Include="Assets\AssetStore\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Scripts\Gizmos\Bullet\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Core\ObjectPool.cs" />
      <Compile Include="Assets\Scripts\Core\Managers\InventoryManager.cs" />
      <Compile Include="Assets\Scripts\Core\Managers\SoundsManager.cs" />
      <Compile Include="Assets\Scripts\UI\UITalkSystem\ImformationControl.cs" />

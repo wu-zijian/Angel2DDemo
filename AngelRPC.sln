@@ -73,9 +73,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsdPlugin", "PsdPlugin.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Editor", "Unity.RenderPipelines.Core.Editor.csproj", "{31a8a942-742f-0235-19e0-f36e9f118f47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.IK.Editor", "Unity.2D.IK.Editor.csproj", "{74072221-12b2-f116-8484-ab804c7b5d67}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Searcher.Editor", "Unity.Searcher.Editor.csproj", "{d17a9f32-b0fc-d37f-be0c-03dbb2b4d66a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.IK.Editor", "Unity.2D.IK.Editor.csproj", "{74072221-12b2-f116-8484-ab804c7b5d67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Psdimporter.Editor", "Unity.2D.Psdimporter.Editor.csproj", "{ddc01154-e98c-221c-a325-963b5e7a2585}"
 EndProject
@@ -176,10 +176,10 @@ Global
 		{bbf6e46c-47d7-e621-4a34-ead696106382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31a8a942-742f-0235-19e0-f36e9f118f47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31a8a942-742f-0235-19e0-f36e9f118f47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74072221-12b2-f116-8484-ab804c7b5d67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74072221-12b2-f116-8484-ab804c7b5d67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d17a9f32-b0fc-d37f-be0c-03dbb2b4d66a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d17a9f32-b0fc-d37f-be0c-03dbb2b4d66a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74072221-12b2-f116-8484-ab804c7b5d67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74072221-12b2-f116-8484-ab804c7b5d67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ddc01154-e98c-221c-a325-963b5e7a2585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ddc01154-e98c-221c-a325-963b5e7a2585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5aef3775-b0c8-8e4b-6848-2f14a9bcc669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

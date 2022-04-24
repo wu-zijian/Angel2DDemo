@@ -21,7 +21,7 @@ public class EnemyBullet : Bullet
             base.OnTriggerStay2D(other);
             PlayerControl player = other.gameObject.GetComponent<PlayerControl>();
             float hurtDirection = other.gameObject.transform.position.x - parent.transform.position.x > 0 ? 1 : -1;
-            player.characterStats.TakeDamage(player.characterStats);
+            player.characterStats.TakeDamage(parent.characterStats);
             player.r2d.AddForce(new Vector2(hurtDirection * hurtForce, 1f), ForceMode2D.Impulse);
             player.Hurt();
         }

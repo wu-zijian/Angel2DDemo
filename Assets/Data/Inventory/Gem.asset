@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e54313baa9ee84c93d880dbaee13cc, type: 3}
   m_Name: Gem
   m_EditorClassIdentifier: 
-  itemName: "\u94BB\u77F3"
+  itemName: Gem
   itemImage: {fileID: 21300000, guid: bd59bf2e866ed4529ae645637eb9c11d, type: 3}
   itemHeld: 1
   itemInfo: a gem

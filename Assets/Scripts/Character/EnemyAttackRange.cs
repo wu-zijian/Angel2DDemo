@@ -15,7 +15,7 @@ public class EnemyAttackRange : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("PlayerLayer"))//判断角色
         {
             PlayerControl player = other.gameObject.GetComponent<PlayerControl>();
-            player.characterStats.TakeDamage(player.characterStats);
+            player.characterStats.TakeDamage(parent.characterStats);
             float hurtDirection = Mathf.Sign(other.gameObject.transform.position.x - parent.transform.position.x);
             player.r2d.AddForce(new Vector2(hurtDirection * hurtForce, 1f), ForceMode2D.Impulse);
             player.Hurt();
